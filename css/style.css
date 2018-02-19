@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	background-color: #4D4545;
+	margin: 0px 0px;
+	font-family: 'Arimo', sans-serif;
+
+}
+header{
+	background:#5C636E;
+	width: 100% ;
+	margin: 0px 0px;
+	text-align: center;
+	height: 120px;
+
+	padding: 10px;
+	color: #DD3E3E;
+	}
+	.select{
+		font-weight: bolder;
+		font-size: 30px;}
+.dinner-item:hover{
+	text-decoration: line-through;
+	color: #BAB9C4;
+	border-top: 3px solid #ffffff;
+	text-shadow: 1px 1px 30px green;
+}
+main{
+	background-color: #4D4545;
+	margin: 5% 28%;
+	text-align: center;
+	}
+.dinner-item{
+	text-align: justify;}
+.dinner-item:first-child{
+	margin: 10px;
+}
+.dinner-item:nth-child(1n){
+	background : #73B1C1;
+ 	margin: 0px 0px;
+
+}
+
+
+.dinner-item:nth-child(2n){
+	background : #588D9C;
+	margin: 0px 0px;
+}
+div{
+	background-color: #4D4545;
+	width: 100%;
+	text-align: center;
+}
+footer{
+	background-color: #5C636E;
+	margin: 20px 500px;
+	font-weight: bolder;
+	text-align: center;
+	color: #DD3E3E;
+	height: 50px;
+	padding: 10px;
+	font-size: 24px;
+
+}
+*{transition: all .1s ease-in;}
+input[type="checkbox"]:checked + p{
+text-decoration: line-through;
+color: red;
+}
+.dinner-item:hover {
+   background: #F67280;
+   border-top: 2px solid snow;
+   border-bottom: 2px solid snow;
+   transition: .5s ease-in;
+   width: 100%;
+}
+
+label{
+	padding: 15px 10px;
+	display: block;
+}
+
+
+atribute{
+	padding: 15px 10px;
+	display: block;
+	margin: auto;
+	color: red;
+
+}
+button{
+	margin-top: 0;
+	margin-left: 45%;
+}
